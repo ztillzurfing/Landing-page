@@ -25,7 +25,7 @@ ul {
 }
 
 .header {
-    padding:8px 350px;
+    padding:8px 400px;
     background-color: #1F2937;
 }
 .header-top {
@@ -33,6 +33,10 @@ ul {
     justify-content: space-between;
     font-size: 24px;
     color:#F9FAF8;    
+}
+
+.header-logo {
+    font-weight: 900;
 }
 
 .hero {
@@ -60,3 +64,48 @@ h1 {
     font-size: 48px;
     font-weight: 800;
 }
+
+button {
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+    display: flex;
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: 600;
+  }
+
+  .info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+  }
+
+
+  .information {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 0 400px;
+    margin:50px 0;
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    gap:52px;
+  }
+
+  
+
+  .info {
+
+    max-width: 250px;
+  }
