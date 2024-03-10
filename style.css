@@ -137,3 +137,41 @@ button {
     color: #1F2937;
 
   }
+
+  .call-container {
+    padding:0 400px
+  }
+  .call {
+    display: flex;
+    flex:1;
+    justify-content:space-between;
+    margin:50px 0;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 75px 150px;
+    color:#F9FAF8;
+    
+  }
+
+  .call-title {
+    font-size: 24px;
+    font-weight: 700;
+
+  }
+
+  .call-text {
+    color:#E5E7EB;
+  }
+
+  .call-button {
+    border-color: #F9FAF8;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
